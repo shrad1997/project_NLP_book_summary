@@ -26,9 +26,19 @@ Steps perform in EDA:
 ## Model building
 Model -- Vader Model 
 VADER (Valence Aware Dictionary and Sentiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains
+The sum of pos, neg, neu intensities give 1. Compound ranges from -1 to 1 and is the metric used to draw the overall sentiment.
+positive if compound >= 0.5
+neutral if -0.5 < compound < 0.5
+negative if -0.5 >= compound
+
+
 
 ## Model deployment
 I have deployed the model on streamlit platform
 
-Screenshot of outputs:
+### Screenshot of outputs:
+
 ![image](https://user-images.githubusercontent.com/91273990/166725130-d1173cbe-9120-4bab-9b08-289febfa20a0.png)
+
+![image](https://user-images.githubusercontent.com/91273990/166725536-6f8fc11a-5689-485c-a228-36394c2d6697.png)
+
