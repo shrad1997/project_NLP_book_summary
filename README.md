@@ -30,3 +30,5 @@ VADER (Valence Aware Dictionary and Sentiment Reasoner) is a lexicon and rule-ba
 ## Model deployment
 I have deployed the model on streamlit platform
 
+Screenshot of outputs:
+![image](https://user-images.githubusercontent.com/91273990/166725130-d1173cbe-9120-4bab-9b08-289febfa20a0.png)
